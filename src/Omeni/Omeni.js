@@ -21,7 +21,7 @@ class Omeni extends Component {
           </div>
         </div>
 
-        <Link to="/" className="arrow">
+        <Link to="/portfolio" className="arrow">
             <img src={arrow} alt={arrow} />
         </Link>
       </div>

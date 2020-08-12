@@ -19,7 +19,7 @@ class App extends Component {
         <Router>
         <AnimatePresence>
           <Switch>
-            <Route exact path="/" component={Pocetna} />
+            <Route exact path="/portfolio" component={Pocetna} />
             <Route path="/usluge" component={Usluge} />
             <Route path="/kontakt" component={Kontakt} />
             <Route path="/radovi" component={Radovi} />

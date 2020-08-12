@@ -1,0 +1,28 @@
+
+h1, h2 {
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+}
+.header h1 {
+  font-size: 64px;
+  padding-top: 150px;
+}
+.header h2 {
+  font-size: 36px;
+}
+
+.header {
+  text-align: center;
+  padding-left: 5%;
+}
+
+.header img {
+  animation: spin 30s linear infinite;
+  margin-top: 50px;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

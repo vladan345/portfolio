@@ -1,0 +1,48 @@
+.Omeni {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0 0 5%;
+  position: relative;
+}
+
+.Omeni .heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Omeni .heading .headers h1,
+.Omeni .heading .headers h2 {
+  font-weight: 200;
+  text-align: center;
+  color: #fff;
+}
+.Omeni .heading .headers h1 {
+  font-size: 24px;
+  padding-top: 10px;
+}
+.Omeni .heading .headers h2 {
+  font-size: 14px;
+}
+
+.active::after {
+  width: 100%;
+}
+.Omeni .heading .logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 0;
+}
+.arrow {
+  width: 44px;
+  height: 48px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 5%;
+}

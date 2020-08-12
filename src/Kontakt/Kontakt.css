@@ -1,0 +1,41 @@
+.Kontakt {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0 0 5%;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headers h1,
+.headers h2 {
+  font-weight: 200;
+  text-align: left;
+  color: #fff;
+}
+.headers h1 {
+  font-size: 36px;
+}
+.headers h2 {
+  font-size: 18px;
+  padding-left: 13px;
+}
+
+.active::after {
+  width: 100%;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.arrow {
+  width: 44px;
+  height: 48px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 5%;
+}

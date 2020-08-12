@@ -20,14 +20,14 @@ class App extends Component {
         <AnimatePresence>
           <Switch>
             <Route exact path="/portfolio" component={Pocetna} />
-            <Route path="/usluge" component={Usluge} />
-            <Route path="/kontakt" component={Kontakt} />
-            <Route path="/radovi" component={Radovi} />
-            <Route path="/o meni" component={Omeni} />
+            <Route path="portfolio/usluge" component={Usluge} />
+            <Route path="portfolio/kontakt" component={Kontakt} />
+            <Route path="portfolio/radovi" component={Radovi} />
+            <Route path="portfolio/o meni" component={Omeni} />
           </Switch>
           <div className="row">
           {linkovi.map((value, index) => {
-          return  <NavLink exact to={"/"+ value} className="links" activeClassName="active" key={index}>{value}</NavLink>
+          return  <NavLink exact to={"portfolio/"+ value} className="links" activeClassName="active" key={index}>{value}</NavLink>
         })}
           </div>
           </AnimatePresence>

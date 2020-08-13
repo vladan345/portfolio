@@ -20,7 +20,7 @@ class Omeni extends Component {
             <h2>FRONT-END DEVELOPER</h2>
           </div>
         </div>
-
+        <h1>Ja sam zirko hrastic, hvala</h1>
         <Link to="/portfolio" className="arrow">
             <img src={arrow} alt={arrow} />
         </Link>

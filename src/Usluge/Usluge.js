@@ -13,8 +13,8 @@ require('react-img-carousel/lib/carousel.css');
 class Usluge extends Component {
   render() {
     const settings =  {
-      width: '500px',
-      height: '500px', 
+      width: '460px',
+      height: '600px', 
       cellPadding: 5,
       alignItems: "center", 
     };

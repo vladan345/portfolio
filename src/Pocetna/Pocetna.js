@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "../logo.png";
 import "./Pocetna.css";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 class Pocetna extends Component {
   render() {
@@ -15,6 +16,7 @@ class Pocetna extends Component {
           <h1>VLADAN MARKOVIĆ</h1>
           <h2>FRONT-END DEVELOPER</h2>
           <img src={logo} alt="logo" />
+          <Link to="/radovi" className="cta-pocetna">pogledaj<br />radove</Link>
         </div>
       </div>
       </motion.div>

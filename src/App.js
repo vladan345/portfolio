@@ -33,6 +33,7 @@ class App extends Component {
           </div>
           </AnimatePresence>
         </Router>
+        <p className="copyright">© 2020 Vladan Markovic | Sva prava rezervisana</p>
       </div>
     );
   }

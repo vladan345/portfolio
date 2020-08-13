@@ -5,6 +5,11 @@
 }
 body {
   font-family: "Work Sans", sans-serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .App {
@@ -17,10 +22,19 @@ body {
   height: 100vh;
 }
 
+.copyright {
+  font-size: 14px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  bottom: 3%;
+  left: 50%;
+  position: fixed;
+  font-weight: 200;
+}
 
 .row {
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 5%;
   transform: translate(0, -50%);

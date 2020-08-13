@@ -1,13 +1,14 @@
 .Kontakt {
   width: 100%;
   height: 100vh;
-  padding: 50px 0 0 5%;
+  padding: 50px 0 0 0;
 }
 
 .heading {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 5%;
 }
 
 .headers h1,
@@ -34,8 +35,81 @@
 .arrow {
   width: 44px;
   height: 48px;
-  position: absolute;
+  position: fixed;
   transform: translate(-50%, -50%);
   top: 50%;
   right: 5%;
+}
+.kon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -70px;
+}
+.kon-content h1 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.kon-cols {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+  margin-top: 30px;
+  max-width: 1040px;
+}
+.left-col, .right-col {
+  margin: 0 20px;
+}
+.left-col p {
+  font-size: 18px;
+  text-align: justify;
+  max-width: 300px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.info p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+form {
+  max-width: 260px;
+}
+input {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+textarea {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+input[type=submit] {
+  font-size: 18px;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #000;
+  transition: 0.3s;
+}
+input[type=submit]:hover {
+  color: #000;
+  background-color: #fff;
 }

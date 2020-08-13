@@ -1,13 +1,14 @@
 .Usluge {
   width: 100%;
   height: 100vh;
-  padding: 50px 0 0 5%;
+  padding: 50px 0 0 0;
 }
 
 .heading {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 5%;
 }
 
 .headers h1,
@@ -33,7 +34,7 @@
 .arrow {
   width: 44px;
   height: 48px;
-  position: absolute;
+  position: fixed;
   transform: translate(-50%, -50%);
   top: 50%;
   right: 5%;
@@ -42,6 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -70px;
 }
 .usl-content h1 {
   font-size: 45px;
@@ -49,17 +51,13 @@
   font-weight: 300;
   margin-bottom: 30px;
 }
-.kartice {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .kartica {
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 15px;
-  padding: 50px 30px;
+  padding: 50px;
   margin: 0 15px;
   display: flex !important;
   flex-direction: column;
@@ -67,16 +65,17 @@
 }
 .kartica img {
   margin-bottom: 20px;
+  height: 50px;
 }
 .kartica h3 {
   font-size: 24px;
   font-weight: 400;
-  margin-bottom: 30px;
 }
 .kartica p {
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin: 30px 0;
+  text-align: justify;
 }
 .kartica a {
   color: #000;

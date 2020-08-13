@@ -16,7 +16,7 @@ class Pocetna extends Component {
           <h1>VLADAN MARKOVIĆ</h1>
           <h2>FRONT-END DEVELOPER</h2>
           <img src={logo} alt="logo" />
-          <Link to="/radovi" className="cta-pocetna">pogledaj<br />radove</Link>
+          <Link to="/radovi" className="cta-pocetna">pogledaj radove</Link>
         </div>
       </div>
       </motion.div>

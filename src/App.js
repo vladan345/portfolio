@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Switch, Route, NavLink, Redirect} from "react-router-dom";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import Usluge from "./Usluge/Usluge";
 import Radovi from "./Radovi/Radovi";
 import Kontakt from "./Kontakt/Kontakt";

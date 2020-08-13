@@ -45,9 +45,10 @@ class Kontakt extends Component {
                   <img src={icon14} alt={icon14} />
                   <p>https://github.com/vladan345</p>
                 </div>
-                <p>Ako vam se svidjaju moji radovi, mozete me kontaktirati preko mail-a ili mozete postaviti pitanje popunjavanjem polja sa desne strane</p>
+                <Link to="/o meni" className="vise">pročitaj više</Link>
               </div>
               <div className="right-col">
+                <h4>Postavi pitanje</h4>
                 <form>
                   <input type="text" name="ime" required placeholder="Ime" /><br />
                   <input type="email" name="email" required placeholder="E-mail" />

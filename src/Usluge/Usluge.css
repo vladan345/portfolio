@@ -30,6 +30,8 @@
 .logo {
   width: 100px;
   height: auto;
+  pointer-events: none;
+  margin-right: 10px;
 }
 .arrow {
   width: 44px;
@@ -49,7 +51,7 @@
   font-size: 45px;
   color: #fff;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .kartica {

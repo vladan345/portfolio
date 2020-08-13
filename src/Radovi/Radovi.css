@@ -35,6 +35,8 @@
 .logo {
   width: 100px;
   height: auto;
+  pointer-events: none;
+  margin-right: 10px;
 }
 .arrow {
   width: 44px;

@@ -19,6 +19,7 @@ h1, h2 {
   align-items: center;
 }
 .cta-pocetna {
+  font-weight: 300;
   color: #fff;
   font-size: 20px;
   text-decoration: none;
@@ -36,6 +37,7 @@ h1, h2 {
 .header img {
   animation: spin 30s linear infinite;
   margin: 70px 0;
+  pointer-events: none;
 }
 @keyframes spin {
   100% {

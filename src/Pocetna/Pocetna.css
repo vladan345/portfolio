@@ -59,4 +59,7 @@ h1, h2 {
   .header h2 {
     font-size: 22px;
   }
+  .cta-pocetna {
+    font-size: 16px;
+  }
 }

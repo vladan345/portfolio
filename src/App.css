@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
 .links {
   text-align: center;
   width: 100%;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 200;
   color: #fff;
   position: relative;
@@ -70,5 +70,39 @@ body::-webkit-scrollbar {
 }
 .row .active {
   width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  .row {
+    flex-direction: row;
+    left: 50%;
+    top: 200px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+  }
+  .links {
+    margin: 0 10px;
+    font-size: 24px;
+    width: auto;
+  }
+  .links::after {
+    top: 30px;
+  }
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .links {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .links {
+    font-size: 16px;
+  }
 }
 

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 class Pocetna extends Component {
   render() {
     return (
+      <div>
       <motion.div 
       exit={{opacity: 0}}
       animate={{opacity: 1}}
@@ -16,10 +17,12 @@ class Pocetna extends Component {
           <h1>VLADAN MARKOVIĆ</h1>
           <h2>FRONT-END DEVELOPER</h2>
           <img src={logo} alt="logo" />
-          <Link to="/radovi" className="cta-pocetna">pogledaj radove</Link>
+          <Link to="/radovi" className="cta-pocetna">pogledajte radove</Link>
         </div>
       </div>
       </motion.div>
+      <p className="copyright">© 2020 Vladan Markovic | Sva prava rezervisana</p>
+      </div>
     );
   }
 }

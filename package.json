@@ -9,10 +9,12 @@
     "@testing-library/user-event": "^7.2.1",
     "framer-motion": "^2.3.0",
     "infinite-react-carousel": "^1.2.11",
+    "radium": "^0.26.0",
     "rc-banner-anim": "^2.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-img-carousel": "^1.7.0",
+    "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.4.1"

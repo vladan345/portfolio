@@ -2,6 +2,11 @@
   width: 100%;
   height: 100vh;
   padding: 50px 0 0 0;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .heading {
@@ -18,18 +23,17 @@
   color: #fff;
 }
 .headers h1 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .headers h2 {
-  font-size: 18px;
-  padding-left: 13px;
+  font-size: 16px;
 }
 
 .active::after {
   width: 100%;
 }
 .logo {
-  width: 100px;
+  width: 70px;
   height: auto;
   pointer-events: none;
   margin-right: 10px;
@@ -64,11 +68,12 @@
 }
 .left-col, .right-col {
   margin: 0 20px;
+  width: 50%;
 }
 .left-col p {
   font-size: 16px;
   text-align: justify;
-  max-width: 300px;
+  width: 100%;
 }
 .left-col a {
   font-size: 16px;
@@ -89,19 +94,27 @@
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+  width: 100%;
 }
 .info p {
   font-size: 18px;
   margin-left: 20px;
+  width: 100%;
+}
+.right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .right-col h4 {
   text-align: center;
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
+  width: 100%;
 }
 form {
-  max-width: 260px;
+ width: 100%;;
 }
 input {
   width: 100%;
@@ -130,8 +143,53 @@ input[type=submit] {
   border: 2px solid #000;
   transition: 0.3s;
   margin-bottom: 0;
+  font-family: 'Work Sans';
 }
 input[type=submit]:hover {
   color: #fff;
   background-color: #000;
+}
+@media only screen and (max-width: 1145px) {
+  .kon-cols {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .headers h1,
+  .headers h2 {
+    text-align: center ;
+  }
+  .heading {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .arrow {
+    width: 20px;
+    height: auto;
+    top: 5%;
+    right: 5%;
+  }
+  .arrow img {
+    width: 20px;
+    height: auto;
+  }
+  .kon-content {
+    margin-top: 120px;
+  }
+  .kon-cols {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+  }
+  .left-col, .right-col {
+    width: 100%;
+  }
+  .left-col {
+    margin-bottom: 50px;
+  }
+  .Kontakt {
+    height: 150vh;
+  }
 }

@@ -22,18 +22,17 @@
   text-align: left;
 }
 .headers h1 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .headers h2 {
-  font-size: 18px;
-  padding-left: 13px;
+  font-size: 16px;
 }
 
 .active::after {
   width: 100%;
 }
 .logo {
-  width: 100px;
+  width: 70px;
   height: auto;
   pointer-events: none;
   margin-right: 10px;
@@ -45,6 +44,10 @@
   transform: translate(-50%, -50%);
   top: 50%;
   right: 5%;
+}
+.radovi-slider {
+  width: 960px;
+  height: 710px;
 }
 .radovi-cont {
   margin-top: -70px;
@@ -93,4 +96,71 @@
 .rad-opis p {
   width: 48%;
   text-align: justify;
+}
+@media only screen and (max-width: 850px) {
+  .headers h1,
+  .headers h2 {
+    text-align: center ;
+  }
+  .heading {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .arrow {
+    width: 20px;
+    height: auto;
+    top: 5%;
+    right: 5%;
+  }
+  .arrow img {
+    width: 20px;
+    height: auto;
+  }
+  .radovi-cont {
+    margin-top: 120px;
+  }
+  .Radovi {
+    height: 140vh !important;
+  }
+  .rad-opis {
+    flex-direction: column;
+  }
+  .rad-opis p {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .rad {
+    width: 600px;
+  }
+  .radovi-slider {
+    width: 600px;
+    height: 800px;
+  }
+  .Radovi {
+    height: 110vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .rad {
+    width: 100%;
+    border-radius: 0;
+  }
+  .radovi-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .rad img {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .rad img {
+    height: 150px;
+  }
+  .Radovi {
+    height: 150vh !important;
+  }
 }

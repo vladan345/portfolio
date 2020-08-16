@@ -20,17 +20,7 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
-  height: 110vh;
-}
-
-.copyright {
-  font-size: 14px;
-  color: #fff;
-  transform: translate(-50%, -50%);
-  bottom: 3%;
-  left: 50%;
-  position: fixed;
-  font-weight: 200;
+  height: 100vh;
 }
 
 .row {
@@ -91,21 +81,22 @@ body::-webkit-scrollbar {
   .links::after {
     top: 30px;
   }
-  .copyright {
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 105vh;
+  .row .active {
+    width: auto;
+  }
+  .App {
+    height: 110vh;
   }
 }
 @media only screen and (max-width: 550px) {
   .links {
     font-size: 20px;
   }
+  
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 375px) {
   .links {
     font-size: 16px;
-  }
+}
 }
 

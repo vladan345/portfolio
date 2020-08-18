@@ -47,7 +47,7 @@ class Omeni extends Component {
                 vam se svidjaju moji radovi, mozete me kontaktirati preko mail-a
                 ili popu strane
               </p>
-              <Link to="/kontakt">kontakt</Link>
+              <Link to="/radovi">pogledajte radove</Link>
             </div>
           </div>
         </motion.div>

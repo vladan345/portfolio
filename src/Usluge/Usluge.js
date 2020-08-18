@@ -42,9 +42,7 @@ class Usluge extends Component {
                   <img src={icon1} alt={icon1}></img>
                   <h3>Vanila Front-end</h3>
                   <p>
-                    Tradicionalni nacin pravljenja sajtova koristeci HTML, CSS i
-                    Javascript da bi se dobio jednostavan i pregledan sajt. U to
-                    spadaju razne animacije i funkcionalnosti
+                    Koristeći osnovne jezike za Front-end programiranje (HTML, CSS i Javascript) pišem čist kod koji dovodi do visoko optimizovanih veb sajtova tako da ne gube na svojim funkcionalnostima.
                   </p>
                   <Link to="/radovi" className="cta-usluge">
                     pogledajte radove
@@ -54,9 +52,9 @@ class Usluge extends Component {
                   <img src={icon2} alt={icon2}></img>
                   <h3>Wordpress</h3>
                   <p>
-                    Jedan od najpoznatijih CMS programa koji omogucava brzo i
+                    Jedan od najpoznatijih CMS programa koji omogućava brzo i
                     efikasno pravljenje sajta pogotovu ako je u pitanju
-                    prodavnica sa mnogo artikala za prikazivanje.
+                    prodavnica sa mnogo artikala za prikazivanje. 
                   </p>
                   <Link to="/radovi" className="cta-usluge">
                     pogledajte radove
@@ -66,9 +64,9 @@ class Usluge extends Component {
                   <img src={icon3} alt={icon3}></img>
                   <h3>React.js</h3>
                   <p>
-                    Danas najkoriscenija i najpopularnija Javascript biblioteka
-                    koja sluzi za pravljenje efikasnih i visoko interaktivnih
-                    web aplikacija i aplikacija generalno.
+                    Danas najkorišćenija i najpopularnija Javascript biblioteka
+                    koja služi za pravljenje efikasnih i visoko interaktivnih
+                    aplikacija i web aplikacija. Njihovom interakcijom se 
                   </p>
                   <Link to="/radovi" className="cta-usluge">
                     pogledajte radove

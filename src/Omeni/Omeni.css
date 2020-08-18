@@ -128,5 +128,15 @@
   .om-kartica {
     width: 100%;
     border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+@media only screen and (max-height: 760px) {
+  .Omeni {
+    height: 200vh;
   }
 }

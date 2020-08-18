@@ -193,3 +193,18 @@ input[type=submit]:hover {
     height: 150vh;
   }
 }
+@media only screen and (max-height: 850px) {
+  .Kontakt {
+    height: 170vh;
+  }
+}
+@media only screen and (max-height: 750px) {
+  .Kontakt {
+    height: 180vh;
+  }
+}
+@media only screen and (max-height: 700px) {
+  .Kontakt {
+    height: 200vh;
+  }
+}

@@ -70,6 +70,7 @@
   padding: 50px;
   margin: 0 15px;
   width: 900px;
+  height: 650px;
 }
 .rad img {
   height: 300px;
@@ -147,20 +148,26 @@
   .rad {
     width: 100%;
     border-radius: 0;
+    margin: 0;
   }
   .radovi-slider {
     width: 100%;
-    height: 100%;
+    height: 710px;
   }
   .rad img {
     height: 200px;
+  }
+  .Radovi {
+    height: 170vh !important;
   }
 }
 @media only screen and (max-width: 500px) {
   .rad img {
     height: 150px;
   }
+}
+@media only screen and (max-height: 700px) {
   .Radovi {
-    height: 150vh !important;
+    height: 250vh;
   }
 }

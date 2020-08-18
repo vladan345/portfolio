@@ -3,6 +3,7 @@ import logo from "../logo.png";
 import arrow from "./arrow.png";
 import screen1 from "./screen1.png";
 import screen2 from "./screen2.png";
+import screen3 from "./screen3.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Radovi.css";
@@ -46,17 +47,17 @@ class Radovi extends Component {
                   </a>
                   <div className="rad-opis">
                     <p>
-                      Moj prvi veci projekat kao i zadatak u skoli koju pohadjam
-                      je bio da se iskodira front-end sajta koristeci osnovne
+                      Moj prvi veći projekat kao i zadatak u školi koju pohađam,
+                      je bio da se uradi front-end sajta koristeći osnovne
                       jezike za izradu veb sajta (HTML, CSS i Javascript). Kao
                       temu za ovaj sajt sam uzeo bend iz Beograda koji nije imao
-                      kako da prikaze svoj identitet osim na svojoj Facebook
-                      stranici.
+                      kako da prikaže svoj identitet osim svojom Facebook
+                      stranicom.
                     </p>
                     <p>
-                      Sa ovim projektom sam savladao HTML i CSS i naucio dosta
-                      korisnih stvari iz Javascript-a da bi sajt bio sto vise
-                      interaktivan jer se time istice od mnogih drugih.
+                      Sa ovim projektom sam savladao HTML i CSS i naučio dosta
+                      korisnih stvari iz Javascript-a da bi sajt bio što više
+                      interaktivan jer se tako izdvaja od mnogih drugih.
                     </p>
                   </div>
                 </div>
@@ -71,17 +72,37 @@ class Radovi extends Component {
                   </a>
                   <div className="rad-opis">
                     <p>
-                      Moj prvi veci projekat kao i zadatak u skoli koju pohadjam
-                      je bio da se iskodira front-end sajta koristeci osnovne
-                      jezike za izradu veb sajta (HTML, CSS i Javascript). Kao
-                      temu za ovaj sajt sam uzeo bend iz Beograda koji nije imao
-                      kako da prikaze svoj identitet osim na svojoj Facebook
-                      stranici.
+                      Scholar je imaginarni online servis koji je nastao kao zadatak za predmet "Elektronsko poslovanje". Sajt za ovaj servis je pravljen preko osnovnih Front-end jezika. 
                     </p>
                     <p>
                       Sa ovim projektom sam savladao HTML i CSS i naucio dosta
                       korisnih stvari iz Javascript-a da bi sajt bio sto vise
                       interaktivan jer se time istice od mnogih drugih.
+                    </p>
+                  </div>
+                </div>
+                <div className="rad">
+                  <img src={screen3} alt={screen3} />
+                  <a
+                    href="https://cochleainear.000webhostapp.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    idite na sajt
+                  </a>
+                  <div className="rad-opis">
+                    <p>
+                      Moj prvi veći projekat kao i zadatak u školi koju pohađam,
+                      je bio da se uradi front-end sajta koristeći osnovne
+                      jezike za izradu veb sajta (HTML, CSS i Javascript). Kao
+                      temu za ovaj sajt sam uzeo bend iz Beograda koji nije imao
+                      kako da prikaže svoj identitet osim svojom Facebook
+                      stranicom.
+                    </p>
+                    <p>
+                      Sa ovim projektom sam savladao HTML i CSS i naučio dosta
+                      korisnih stvari iz Javascript-a da bi sajt bio što više
+                      interaktivan jer se tako izdvaja od mnogih drugih.
                     </p>
                   </div>
                 </div>

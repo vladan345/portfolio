@@ -141,4 +141,12 @@
     width: 100%;
     height: 550px;
   }
+  .Usluge {
+    height: 140vh;
+  }
+}
+@media only screen and (max-height: 700px) {
+  .Usluge {
+    height: 170vh;
+  }
 }

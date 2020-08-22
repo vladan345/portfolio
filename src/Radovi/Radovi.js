@@ -20,7 +20,10 @@ class Radovi extends Component {
     return (
       <div className="Radovi">
         <div className="heading">
-          <img className="logo" src={logo} alt="logo" />
+        <Link to="/portfolio">
+          <img className="logo" src={logo} alt="logo" onClick="return false" />
+          </Link>
+          
           <div className="headers">
             <h1>VLADAN MARKOVIĆ</h1>
             <h2>FRONT-END DEVELOPER</h2>
@@ -47,15 +50,14 @@ class Radovi extends Component {
                   </a>
                   <div className="rad-opis">
                     <p>
-                      Moj prvi veći projekat kao i zadatak u školi koju pohađam,
-                      je bio da se uradi front-end sajta koristeći osnovne
-                      jezike za izradu veb sajta (HTML, CSS i Javascript). Kao
-                      temu za ovaj sajt sam uzeo bend iz Beograda koji nije imao
-                      kako da prikaže svoj identitet osim svojom Facebook
-                      stranicom.
+                      <em>Maera</em> je bend iz Beograda koji nije imao
+                      kako da prikaže svoj identitet osim svojom Facebook i Instagram
+                      stranicom i to je bila tema mog prvog većeg projekta kao i zadatak u školi koju pohađam.
+                      Cilj je bio da se uradi front-end sajta služeći se osnovnim
+                      jezicima za izradu veb sajta (HTML, CSS i Javascript).
                     </p>
                     <p>
-                      Sa ovim projektom sam savladao HTML i CSS i naučio dosta
+                      Radeći na ovom projektu savladao sam HTML, CSS i naučio dosta
                       korisnih stvari iz Javascript-a da bi sajt bio što više
                       interaktivan jer se tako izdvaja od mnogih drugih.
                     </p>
@@ -72,12 +74,10 @@ class Radovi extends Component {
                   </a>
                   <div className="rad-opis">
                     <p>
-                      Scholar je imaginarni online servis koji je nastao kao zadatak za predmet "Elektronsko poslovanje". Sajt za ovaj servis je pravljen preko osnovnih Front-end jezika. 
+                      <em>Scholar</em> je imaginarni online servis koji je nastao kao zadatak za predmet "Elektronsko poslovanje". Sajt za ovaj servis je pravljen preko osnovnih front-end jezika. 
                     </p>
                     <p>
-                      Sa ovim projektom sam savladao HTML i CSS i naucio dosta
-                      korisnih stvari iz Javascript-a da bi sajt bio sto vise
-                      interaktivan jer se time istice od mnogih drugih.
+                      Projekat nije rađen samostalno. U dizajniranju sam imao pomoć kolege iz škole dok sam ja radio front-end sajta i to u jako kratkom roku i time video napredak prethodnog uvežbavanja brzine izrade sajta. 
                     </p>
                   </div>
                 </div>
@@ -92,17 +92,10 @@ class Radovi extends Component {
                   </a>
                   <div className="rad-opis">
                     <p>
-                      Moj prvi veći projekat kao i zadatak u školi koju pohađam,
-                      je bio da se uradi front-end sajta koristeći osnovne
-                      jezike za izradu veb sajta (HTML, CSS i Javascript). Kao
-                      temu za ovaj sajt sam uzeo bend iz Beograda koji nije imao
-                      kako da prikaže svoj identitet osim svojom Facebook
-                      stranicom.
+                      Samostalni rad na kompletnom identitetu imaginarne kompanije <em>Cochlea</em> za in-ear monitoring slušalice, dizajn sajta i njegovo stvaranje bio je glavna tema u mojoj završnoj godini. Prvi put sam se upustio u rad preko Wordpress-a što je bila ovogodišnja tema prakse u školi.
                     </p>
                     <p>
-                      Sa ovim projektom sam savladao HTML i CSS i naučio dosta
-                      korisnih stvari iz Javascript-a da bi sajt bio što više
-                      interaktivan jer se tako izdvaja od mnogih drugih.
+                      Ovaj projekat je bio završni rad prakse i sa njim sam pokazao znanje raznih elemenata, dodataka i mnogih drugih stvari koje Wordpress pruža i time dodao još jedan alat koji mogu da koristim u izradi veb sajtova. 
                     </p>
                   </div>
                 </div>

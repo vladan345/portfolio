@@ -13,7 +13,9 @@ class Kontakt extends Component {
     return (
       <div className="Kontakt">
         <div className="heading">
-          <img className="logo" src={logo} alt="logo" />
+        <Link to="/portfolio">
+          <img className="logo" src={logo} alt="logo" onClick="return false" />
+          </Link>
           <div className="headers">
             <h1>VLADAN MARKOVIĆ</h1>
             <h2>FRONT-END DEVELOPER</h2>

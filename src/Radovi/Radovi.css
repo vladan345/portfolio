@@ -42,8 +42,9 @@
   height: 48px;
   position: fixed;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 5%;
   right: 5%;
+  display: none;
 }
 .radovi-slider {
   width: 960px;
@@ -113,6 +114,7 @@
     height: auto;
     top: 5%;
     right: 5%;
+    display: block;
   }
   .arrow img {
     width: 20px;
@@ -168,6 +170,6 @@
 }
 @media only screen and (max-height: 700px) {
   .Radovi {
-    height: 250vh;
+    height: 25npm s0vh;
   }
 }

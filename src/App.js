@@ -12,7 +12,7 @@ import Pocetna from "./Pocetna/Pocetna";
 class App extends Component {
   render() {
     
-    const linkovi = ['usluge', 'radovi', 'kontakt', 'o meni'];
+    const linkovi = ['usluge', 'radovi', 'o meni', 'kontakt'];
 
     return (
       <div className="App">

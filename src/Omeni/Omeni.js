@@ -37,7 +37,8 @@ class Omeni extends Component {
                 </div>
               </div>
               <p className="profil-p">
-              Front-end developmentom se bavim dve godine i za to vreme sam učio različite alate za izradu veb sajtova. Vreme mi je uglavnom odlazilo na učenje tih tehnologija i zbog toga su mi svi projekti koje do sada imam nastali za vreme obrazovanja u IT školi (ITS). Cenim tačnost i preciznost u svojim radovima, volim rešavati probleme, te ako dođe do ikakvih prepreka, sa zadovoljstvom ću se suočiti sa njima. Živim u Beogradu i pored informacionih tehnologija, volim da kuvam i bavim se muzikom. Prvi sajt koji sam napravio bio je za bend u kom sviram bubnjeve. Ako vam se sviđaju moji radovi, sa mnom možete stupiti u kontakt preko mejla ili poslati pitanje popunjavanjem polja na kontakt stranici.
+              Programer sam iz Beograda i u slobodno vreme volim da kuvam i bavim se muzikom. Prvi sajt koji sam napravio bio je za bend u kom sviram bubnjeve.
+              Front-end developmentom se bavim dve godine i za to vreme sam učio različite alate za izradu veb sajtova. Vreme mi je uglavnom odlazilo na učenje tih tehnologija i zbog toga su mi svi projekti koje do sada imam nastali za vreme obrazovanja u IT školi (ITS). Cenim tačnost i preciznost u svojim radovima, volim rešavati probleme, te ako dođe do ikakvih prepreka, sa zadovoljstvom ću se suočiti sa njima. Ako vam se sviđaju moji radovi, sa mnom možete stupiti u kontakt preko mejla ili poslati pitanje popunjavanjem polja na kontakt stranici.
               </p>
               <Link to="/radovi">pogledajte radove</Link>
             </div>

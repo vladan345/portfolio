@@ -37,7 +37,7 @@ class Kontakt extends Component {
                 </div>
                 <div className="info">
                   <img src={icon12} alt={icon12} />
-                  <p>vladan.m@gmail.com</p>
+                  <p>vladanm087@gmail.com</p>
                 </div>
                 <div className="info">
                   <img src={icon13} alt={icon13} />
